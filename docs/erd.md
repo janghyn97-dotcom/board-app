@@ -1,7 +1,11 @@
+````markdown
+# 데이터 모델
+
+```mermaid
 erDiagram
-MEMBER ||--o{ POST    : "작성"
-MEMBER ||--o{ COMMENT : "작성"
-POST   ||--o{ COMMENT : "달림"
+    MEMBER ||--o{ POST    : "작성"
+    MEMBER ||--o{ COMMENT : "작성"
+    POST   ||--o{ COMMENT : "달림"
 
     MEMBER {
         bigint      id PK
@@ -25,3 +29,5 @@ POST   ||--o{ COMMENT : "달림"
         varchar_500 content
         datetime    created_at
     }
+```
+````

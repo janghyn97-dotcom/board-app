@@ -1,4 +1,3 @@
-````markdown
 # 데이터 모델
 
 ```mermaid
@@ -30,4 +29,3 @@ erDiagram
         datetime    created_at
     }
 ```
-````
